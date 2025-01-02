@@ -60,6 +60,7 @@ show_confirm"
                                                     data-konf-delete="{{ $row->nama }}" title='Hapus Data'>
                                                     <i class="fas fa-trash"></i> Hapus</button>
                                             </form>
+
                                         </td>
                                     </tr>
                                 @endforeach
@@ -70,5 +71,5 @@ show_confirm"
             </div>
         </div>
     </div>
-    <!-- contentAkhir -->
+<!-- contentAkhir -->
 @endsection

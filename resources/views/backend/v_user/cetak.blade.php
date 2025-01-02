@@ -38,6 +38,15 @@
             <th>Role</th>
             <th>Status</th>
         </tr>
+
+        <tr>
+            <th>No</th>
+            <th>Kategori</th>
+            <th>Status</th>
+            <th>Nama Produk</th>
+            <th>Harga</th>
+            <th>Stok</th>
+        </tr>
     </thead>
     <tbody>
         @foreach ($cetak as $row)

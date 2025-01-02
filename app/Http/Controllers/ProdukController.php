@@ -201,8 +201,7 @@ atau gif.',
             $validatedData['foto'] = $originalFileName;
         }
         $produk->update($validatedData);
-        return redirect()->route('backend.produk.index')->with('success', 'Data berhasil
-diperbaharui');
+        return redirect()->route('backend.produk.index')->with('success', 'Data berhasil diperbaharui');
     }
     /**
      * Remove the specified resource from storage.
@@ -243,8 +242,7 @@ diperbaharui');
             $fotoProduk->delete();
         }
         $produk->delete();
-        return redirect()->route('backend.produk.index')->with('success', 'Data berhasil
-dihapus');
+        return redirect()->route('backend.produk.index')->with('success', 'Data berhasil dihapus');
     }
     // Method untuk menyimpan foto tambahan
     public function storeFoto(Request $request)

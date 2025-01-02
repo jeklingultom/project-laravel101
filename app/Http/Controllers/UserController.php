@@ -123,7 +123,8 @@ class UserController extends Controller
         $user = User::findOrFail($id);
         return view("Backend.v_user.edit", [
             'user' => 'Ubah User',
-            'edit' => $user
+            'edit' => $user,
+            'judul' => 'Ubah User',
         ]);
     }
     /**

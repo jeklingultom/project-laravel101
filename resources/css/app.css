@@ -1,0 +1,65 @@
+/* Styling untuk card */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Styling untuk judul card */
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling untuk alert */
+.alert {
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.1rem;
+    background-color: #d4edda; /* Warna latar belakang hijau */
+    color: #155724; /* Warna teks hijau gelap */
+}
+
+/* Styling untuk badge */
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+    border-radius: 10px;
+}
+
+/* Styling untuk gambar */
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling untuk teks di dalam alert */
+.alert-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Styling untuk margin bawah */
+.mb-0 {
+    margin-bottom: 0;
+}
+
+/* Styling untuk teks di dalam alert */
+.alert p {
+    margin: 0.5rem 0;
+}
+
+/* Styling untuk container */
+.row {
+    margin-top: 20px;
+}
+
+/* Styling untuk kolom */
+.col-12 {
+    padding: 15px;
+}
